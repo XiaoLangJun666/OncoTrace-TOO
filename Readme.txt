@@ -1,7 +1,16 @@
-Data_Pre是进行数据清洗的代码。
-Diff_groups生成差异分析需要的数据集的代码。
-Diff.R是差异分析的代码
-Diff_Select：对差异分析的结果进行过滤，生成模型的训练矩阵
-Model:模型训练，模型保存。
-metastatic_cancer:使用TCGA中转移癌生成矩阵，并且进行预测。
-clinical_data:用来生成医院样本测试使用的矩阵，并进行验证。
+Data_Pre: Code for data cleaning and preprocessing.
+
+Diff_groups: Code to generate datasets required for differential expression analysis.
+
+Diff.R: R script for performing differential expression analysis.
+
+Diff_Select: Filters the results of differential analysis and generates the training matrix for modeling.
+
+Model: Code for model training and saving the trained model.
+
+metastatic_cancer: Uses metastatic cancer samples from TCGA to generate a matrix and perform predictions.
+
+clinical_data: Generates the matrix from hospital clinical samples for testing and validation purposes.
+
+
+For the data used in this paper, please contact the corresponding author
