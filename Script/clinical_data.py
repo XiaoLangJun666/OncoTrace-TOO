@@ -7,7 +7,7 @@ import  seaborn as sns
 import matplotlib.pyplot as plt
 from sklearn.model_selection import train_test_split, cross_val_score, cross_val_predict
 from sklearn.metrics import accuracy_score, confusion_matrix
-#将样本合并，生成矩阵
+
 # nm=['2200136','2200454','2200640','2200682','2200777','2200778','2200874','2201042','2300110','2300675']
 # round=True
 # for n in nm:
@@ -38,7 +38,6 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 
 
 
-#去重复（选取表达量最大的）
 # df1=pd.read_csv('H:/FYP/summer/Data/wts2/Sample_matrix',sep='\t',index_col=[0])
 # print(df1.shape)
 #
@@ -55,7 +54,7 @@ from sklearn.metrics import accuracy_score, confusion_matrix
 # outputpath="H:/FYP/summer/Data/wts2/Sample_matrix_max"
 # df1.to_csv(outputpath, sep='\t', index=True, header=True)
 
-#去重复（选取平均值）
+
 # df1=pd.read_csv('H:/FYP/summer/Data/wts2/Sample_matrix',sep='\t',index_col=[0])
 # print(df1.shape)
 #
